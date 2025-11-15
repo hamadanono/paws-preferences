@@ -1,9 +1,7 @@
 # Paws & Preferences: Find Your Favorite Kitty 🐱
 
-![Cat Swipe App](https://hamadanono.github.io/paws-preferences/screenshot.png)
-
 A fun **cat-swipe app** inspired by dating app like Tinder. 
-Swipe right to **like** a kitty, left to **pass**.  
+Swipe right to like a kitty, left to pass.  
 At the end, see how many cats you've liked.
 
 **Live Demo**: [https://hamadanono.github.io/paws-preferences/](https://hamadanono.github.io/paws-preferences/)
@@ -37,13 +35,3 @@ At the end, see how many cats you've liked.
    **Swipe left** → Dislike 🙅‍♂️
 3. Or use the **buttons** below
 4. After 10 cats → See your **liked kitties**!
-
----
-
-## Project Structure
-
-paws-preferences/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
