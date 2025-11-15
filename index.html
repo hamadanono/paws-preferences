@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paws & Preferences</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="title">🐾 Paws & Preferences 🐾</div>
+    <p class="subtitle">Find your purr-fect match</p>
+  </header>
+
+  <div class="app">
+    <!-- Progress Status -->
+    <div class="progress-container">
+      <p class="progress-text">
+        <span class="progress-label">💡 Tip: Swipe right to like, left to pass.</span>
+      </p>
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+    </div>
+
+    <!-- Swipe Status Icons -->
+    <div class="swipe-status">
+      <i class="fas fa-times icon-dislike"></i>
+      <i class="fas fa-heart icon-like"></i>
+    </div>
+
+    <!-- Card Stack -->
+    <div class="card-stack" id="cardStack"></div>
+
+    <!-- Action Buttons -->
+    <div class="action-buttons">
+      <button id="dislikeBtn" class="btn-round btn-dislike">
+        <i class="fas fa-times"></i>
+      </button>
+      <button id="likeBtn" class="btn-round btn-like">
+        <i class="fas fa-heart"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Summary Screen -->
+  <div class="summary-screen" id="summaryScreen">
+    <h2>✨ Your Favorite Kitties!</h2>
+    <p>You liked <strong id="likeCount">0</strong> out of <strong id="totalCount">12</strong> cats.</p>
+    <div class="liked-cats" id="likedCats"></div>
+    <button onclick="location.reload()" class="btn-restart">Try Again</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+  <script src="script.js"></script>
+</body>
+</html>
