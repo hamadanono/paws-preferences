@@ -25,6 +25,7 @@ At the end, see how many cats you've liked.
 - **HTML5**
 - **CSS3**
 - **Vanilla JavaScript**
+- **Hammer.js**
 
 ---
 
